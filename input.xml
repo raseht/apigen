@@ -1,0 +1,44 @@
+<project>
+	<target>php</target>
+	<target>java</target>
+	<target>js</target>
+	<api>
+		<namespace>
+			<name>com.raseht.YANG</name>
+			<class>
+				<name>System</name>
+				<inherit>
+					<parent target="php">ActiveRecord.Model</parent>
+				</inherit>
+				<implement>
+				</implement>
+				<member>
+					<name>contact</name>
+					<type>string</type>
+					<value>""</value>
+					<size>255</size>
+				</member>
+				<member>
+					<name>hostname</name>
+					<type>string</type>
+					<value>""</value>
+					<size>255</size>
+				</member>
+				<member>
+					<name>location</name>
+					<type>string</type>
+					<value>""</value>
+					<size>255</size>
+				</member>
+				<member>
+					<name>test</name>
+					<type>string</type>
+					<value>""</value>
+					<size>255</size>
+				</member>
+				<constructor>
+				</constructor>
+			</class>
+		</namespace>
+	</api>
+</project>
